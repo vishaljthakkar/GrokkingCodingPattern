@@ -1,6 +1,11 @@
-package com.pattern.slidingwindow;
+package com.pattern.slidingwindow.easy;
 
+import com.pattern.util.RandomArrayGenerator;
 import lombok.extern.slf4j.Slf4j;
+
+import java.time.Duration;
+import java.time.Instant;
+import java.util.Arrays;
 
 /*
 Q: Given an array, find the average of all contiguous subarrays of size 'K' in it
@@ -12,6 +17,7 @@ public class AverageOfSubarrayOfSizeK {
 
     // Time Complexity O(N * K) N => arr.length
     public static double[] findAverageBF(int[] input, int K) {
+        Instant start = Instant.now();
         if (K <= 0 || K > input.length) {
             throw new IllegalArgumentException("subarray cannot be greater than array length");
         }
@@ -24,10 +30,14 @@ public class AverageOfSubarrayOfSizeK {
             }
             result[i] = sum / K;
         }
+        Instant end = Instant.now();
+        log.info("Time elapsed: " + Duration.between(start, end).toNanos() + " nanoseconds");
         return result;
     }
 
+    // Time complexity O(n)
     public static double[] findAverageSlidingWindow(int[] arr, int K) {
+        Instant start = Instant.now();
         if (K <= 0 || K > arr.length) {
             throw new IllegalArgumentException("Subarray K cannot be greater than arr array length");
         }
@@ -46,6 +56,17 @@ public class AverageOfSubarrayOfSizeK {
                 windowStart++; //slide the window ahead
             }
         }
+        Instant end = Instant.now();
+        log.info("Time elapsed: " + Duration.between(start, end).toNanos() + " nanoseconds");
         return result;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {1, 3, 2, 6, -1, 4, 1, 8, 2};
+        System.out.println(Arrays.toString(findAverageBF(arr, 5)));
+        System.out.println(Arrays.toString(findAverageSlidingWindow(arr, 5)));
+
+        findAverageBF(new RandomArrayGenerator(10000).getRandomIntArray(), 5);
+        findAverageSlidingWindow(new RandomArrayGenerator(10000).getRandomIntArray(), 5);
     }
 }
