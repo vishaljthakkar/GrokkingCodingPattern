@@ -3,11 +3,17 @@ package com.pattern.util;
 import java.util.Random;
 
 public class RandomArrayGenerator {
-    private int size;
+    private final int size;
+    private int bound;
 
 
     public RandomArrayGenerator(int size) {
         this.size = size;
+    }
+
+    public RandomArrayGenerator setBound(int bound) {
+        this.bound = bound;
+        return this;
     }
 
     public int[] getRandomIntArray() {
@@ -15,7 +21,7 @@ public class RandomArrayGenerator {
         Random random = new Random();
 
         for (int i = 0; i < size; i++) {
-            array[i] = random.nextInt();
+            array[i] = (bound > 0) ? random.nextInt(bound) : random.nextInt();
         }
         return array;
     }
