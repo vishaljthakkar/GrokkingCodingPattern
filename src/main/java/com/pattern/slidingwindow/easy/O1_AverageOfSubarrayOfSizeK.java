@@ -12,7 +12,7 @@ Q: Given an array, find the average of all contiguous subarrays of size 'K' in i
 arr = [1,2,3,6,-1, 4,1,8,2] K - 5
  */
 @Slf4j
-public class AverageOfSubarrayOfSizeK {
+public class O1_AverageOfSubarrayOfSizeK {
 
 
     // Time Complexity O(N * K) N => arr.length

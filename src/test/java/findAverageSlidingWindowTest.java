@@ -1,4 +1,4 @@
-import com.pattern.slidingwindow.easy.AverageOfSubarrayOfSizeK;
+import com.pattern.slidingwindow.easy.O1_AverageOfSubarrayOfSizeK;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -12,7 +12,7 @@ public class findAverageSlidingWindowTest {
         int K = 5;
 
         // When
-        double[] result = AverageOfSubarrayOfSizeK.findAverageSlidingWindow(input, K);
+        double[] result = O1_AverageOfSubarrayOfSizeK.findAverageSlidingWindow(input, K);
 
         // Then
         assertEquals(input.length - K + 1, result.length);
@@ -25,7 +25,7 @@ public class findAverageSlidingWindowTest {
         int K = 3;
 
         // When
-        double[] result = AverageOfSubarrayOfSizeK.findAverageSlidingWindow(input, K);
+        double[] result = O1_AverageOfSubarrayOfSizeK.findAverageSlidingWindow(input, K);
 
         // Then
         assertEquals(3, result.length);
@@ -39,7 +39,7 @@ public class findAverageSlidingWindowTest {
         int K = 5;
 
         // When
-        double[] result = AverageOfSubarrayOfSizeK.findAverageSlidingWindow(input, K);
+        double[] result = O1_AverageOfSubarrayOfSizeK.findAverageSlidingWindow(input, K);
 
         // Then
         double[] expected = new double[]{2.2, 2.8, 2.6, 3.6, 2.8};
@@ -54,7 +54,7 @@ public class findAverageSlidingWindowTest {
         int[] input = new int[]{5};
 
         // When
-        double[] result = AverageOfSubarrayOfSizeK.findAverageSlidingWindow(input, 1);
+        double[] result = O1_AverageOfSubarrayOfSizeK.findAverageSlidingWindow(input, 1);
 
         // Then
         assertEquals(1, result.length);
@@ -69,7 +69,7 @@ public class findAverageSlidingWindowTest {
         int K = 3;
 
         // When
-        double[] result = AverageOfSubarrayOfSizeK.findAverageSlidingWindow(input, K);
+        double[] result = O1_AverageOfSubarrayOfSizeK.findAverageSlidingWindow(input, K);
 
         // Then
         double[] expected = new double[]{0.0, 1.6666666666666667, 0.6666666666666666, 3.0, 0.6666666666666666, 3.6666666666666665, 3.0};
@@ -85,7 +85,7 @@ public class findAverageSlidingWindowTest {
 
         // When and Then
         assertThrows(IllegalArgumentException.class, () -> {
-            AverageOfSubarrayOfSizeK.findAverageSlidingWindow(input, K);
+            O1_AverageOfSubarrayOfSizeK.findAverageSlidingWindow(input, K);
         });
     }
 
@@ -99,7 +99,7 @@ public class findAverageSlidingWindowTest {
 
         // When
         assertThrows(IllegalArgumentException.class, () -> {
-            AverageOfSubarrayOfSizeK.findAverageSlidingWindow(input, K);
+            O1_AverageOfSubarrayOfSizeK.findAverageSlidingWindow(input, K);
         });
 
         // Then
