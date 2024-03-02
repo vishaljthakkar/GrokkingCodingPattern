@@ -27,7 +27,7 @@ The space complexity of the algorithm is O(K) as we will be storing a maximum of
  */
 
 @Slf4j
-public class LongestSubstringKDistinct {
+public class O4_LongestSubstringKDistinct {
     public static int findLength(String str, int k) {
         if (str == null || str.isEmpty() || k > str.length()) {
             throw new IllegalArgumentException();
