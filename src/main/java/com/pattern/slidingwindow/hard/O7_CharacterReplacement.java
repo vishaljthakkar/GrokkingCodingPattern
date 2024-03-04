@@ -25,6 +25,9 @@ Explanation: Replace the 'b' or 'd' with 'c' to have the longest repeating subst
 public class O7_CharacterReplacement {
 
     public static int findLength(String str, int k) {
+        if (k < 0 || k > str.length()) {
+            throw new IllegalArgumentException();
+        }
         int windowStart = 0, maxLength = 0, maxRepeatLetterCount = 0;
         var letterFrequencyMap = new HashMap<Character, Integer>();
 
