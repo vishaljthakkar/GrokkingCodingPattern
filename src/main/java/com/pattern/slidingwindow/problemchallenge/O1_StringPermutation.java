@@ -56,7 +56,7 @@ Space Complexity
 The space complexity of the algorithm is O(M). O(M) since in the worst case,
 the whole pattern can have distinct characters which will go into the HashMap.
  */
-public class StringPermutation {
+public class O1_StringPermutation {
     public static boolean findPermutation(String str, String pattern) {
         // Do input checks
         int windowStart = 0, matched = 0;
