@@ -1,4 +1,4 @@
-import com.pattern.slidingwindow.easy.O2_MaxSumSubArrayOfSizeK;
+import com.pattern.o1slidingwindow.easy.O2_MaxSumSubArrayOfSizeK;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

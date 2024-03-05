@@ -1,4 +1,4 @@
-package com.pattern.slidingwindow.easy;
+package com.pattern.o1slidingwindow.easy;
 
 import com.pattern.util.RandomArrayGenerator;
 import lombok.extern.slf4j.Slf4j;

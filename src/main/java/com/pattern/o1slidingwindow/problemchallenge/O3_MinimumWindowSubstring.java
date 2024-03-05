@@ -1,4 +1,4 @@
-package com.pattern.slidingwindow.problemchallenge;
+package com.pattern.o1slidingwindow.problemchallenge;
 
 import java.util.HashMap;
 

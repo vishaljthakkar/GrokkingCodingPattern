@@ -1,4 +1,4 @@
-package com.pattern.slidingwindow.hard;
+package com.pattern.o1slidingwindow.hard;
 
 import lombok.extern.slf4j.Slf4j;
 

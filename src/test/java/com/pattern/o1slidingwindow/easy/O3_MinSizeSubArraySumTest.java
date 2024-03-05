@@ -1,4 +1,4 @@
-package com.pattern.slidingwindow.easy;
+package com.pattern.o1slidingwindow.easy;
 
 import org.junit.jupiter.api.Test;
 

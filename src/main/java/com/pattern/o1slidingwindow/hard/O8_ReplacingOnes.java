@@ -1,4 +1,4 @@
-package com.pattern.slidingwindow.hard;
+package com.pattern.o1slidingwindow.hard;
 
 import java.util.Arrays;
 
