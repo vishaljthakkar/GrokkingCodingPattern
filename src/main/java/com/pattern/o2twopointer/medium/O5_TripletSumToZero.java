@@ -39,7 +39,7 @@ O(N) for storing the result
 
 Sorting the array
  */
-public class TripletSumToZero {
+public class O5_TripletSumToZero {
     public static List<List<Integer>> searchTriplet(int[] arr) {
         if (arr == null || arr.length < 2) {
             throw new IllegalArgumentException();

@@ -25,7 +25,7 @@ We can follow a similar approach to iterate through the array,
 taking one number at a time. At every step, we will save the difference between the triplet and the target number, so that in the end, we can return the triplet with the closest sum.
 
  */
-public class TripletSumCloseToTarget {
+public class O6_TripletSumCloseToTarget {
 
     public static int searchTriplet(int[] arr, int targetSum) {
         if (arr == null || arr.length < 2)
