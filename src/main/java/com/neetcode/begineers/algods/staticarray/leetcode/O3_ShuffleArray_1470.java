@@ -2,6 +2,8 @@ package com.neetcode.begineers.algods.staticarray.leetcode;
 
 import java.util.Arrays;
 
+// https://leetcode.com/problems/shuffle-the-array/
+
 public class O3_ShuffleArray_1470 {
 
     public static int[] shuffle(int[] nums, int n) {

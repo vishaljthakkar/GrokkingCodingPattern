@@ -1,5 +1,6 @@
 package com.neetcode.begineers.algods.staticarray.leetcode;
 
+// https://leetcode.com/problems/remove-element/
 public class O2_RemoveElement_27 {
 
     public static int removeElement(int[] nums, int val) {
