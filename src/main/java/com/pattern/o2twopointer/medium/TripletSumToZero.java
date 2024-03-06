@@ -41,7 +41,7 @@ Sorting the array
  */
 public class TripletSumToZero {
     public static List<List<Integer>> searchTriplet(int[] arr) {
-        if (arr.length == 0) {
+        if (arr == null || arr.length < 2) {
             throw new IllegalArgumentException();
         }
 
