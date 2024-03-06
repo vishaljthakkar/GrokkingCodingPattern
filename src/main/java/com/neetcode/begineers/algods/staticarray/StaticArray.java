@@ -1,4 +1,4 @@
-package com.neetcode.begineers.algods;
+package com.neetcode.begineers.algods.staticarray;
 
 public class StaticArray {
 
