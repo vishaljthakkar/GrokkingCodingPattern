@@ -23,6 +23,15 @@ public class O1_ReverseLinkedList_206 {
         return previous;
     }
 
+    public static ListNode reverseListRecursion(ListNode head) {
+        if (head == null || head.next == null)
+            return head;
+        ListNode p = reverseListRecursion(head.next);
+        head.next.next = head;
+        head.next = null;
+        return p;
+    }
+
     public static void main(String[] args) {
         ListNode node1 = new ListNode(1);
         ListNode node2 = new ListNode(2);
@@ -33,6 +42,14 @@ public class O1_ReverseLinkedList_206 {
 
         reverseList(node1);
         ListNode current = node5;
+        while(current != null) {
+            System.out.print(current.val + " => ");
+            current = current.next;
+        }
+        System.out.println("null");
+
+        reverseListRecursion(node5);
+        current = node1;
         while(current != null) {
             System.out.print(current.val + " => ");
             current = current.next;
