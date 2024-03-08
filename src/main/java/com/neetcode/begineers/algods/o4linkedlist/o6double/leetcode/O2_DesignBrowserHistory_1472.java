@@ -1,4 +1,4 @@
-package com.neetcode.begineers.algods.o4linkedlist.o2double.leetcode;
+package com.neetcode.begineers.algods.o4linkedlist.o6double.leetcode;
 
 // https://leetcode.com/problems/design-browser-history/
 public class O2_DesignBrowserHistory_1472 {

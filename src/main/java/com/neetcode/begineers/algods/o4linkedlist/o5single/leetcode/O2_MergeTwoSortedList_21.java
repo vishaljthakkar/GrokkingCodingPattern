@@ -1,6 +1,6 @@
-package com.neetcode.begineers.algods.o4linkedlist.o1single.leetcode;
+package com.neetcode.begineers.algods.o4linkedlist.o5single.leetcode;
 
-import com.neetcode.begineers.algods.o4linkedlist.o1single.ListNode;
+import com.neetcode.begineers.algods.o4linkedlist.o5single.ListNode;
 
 // https://leetcode.com/problems/merge-two-sorted-lists/
 public class O2_MergeTwoSortedList_21 {

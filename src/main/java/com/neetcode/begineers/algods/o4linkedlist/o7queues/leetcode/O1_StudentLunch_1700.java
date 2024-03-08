@@ -1,4 +1,4 @@
-package com.neetcode.begineers.algods.o4linkedlist.o3queues.leetcode;
+package com.neetcode.begineers.algods.o4linkedlist.o7queues.leetcode;
 
 // https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/
 

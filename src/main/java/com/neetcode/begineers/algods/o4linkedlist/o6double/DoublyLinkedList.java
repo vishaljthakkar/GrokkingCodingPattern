@@ -1,4 +1,4 @@
-package com.neetcode.begineers.algods.o4linkedlist.o2double;
+package com.neetcode.begineers.algods.o4linkedlist.o6double;
 
 // Implementation for Doubly Linked List
 public class DoublyLinkedList {

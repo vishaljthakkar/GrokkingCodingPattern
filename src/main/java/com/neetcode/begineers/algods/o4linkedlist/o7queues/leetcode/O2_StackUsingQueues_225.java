@@ -1,4 +1,4 @@
-package com.neetcode.begineers.algods.o4linkedlist.o3queues.leetcode;
+package com.neetcode.begineers.algods.o4linkedlist.o7queues.leetcode;
 
 import java.util.LinkedList;
 import java.util.Queue;

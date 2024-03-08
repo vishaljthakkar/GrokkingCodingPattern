@@ -1,4 +1,4 @@
-package com.neetcode.begineers.algods.o4linkedlist.o3queues;
+package com.neetcode.begineers.algods.o4linkedlist.o7queues;
 
 public class Queue {
     ListNode forward;  // front of Queue   front -> [1,2,3]

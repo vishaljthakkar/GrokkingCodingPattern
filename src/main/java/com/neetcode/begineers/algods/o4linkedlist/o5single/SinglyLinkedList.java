@@ -1,4 +1,4 @@
-package com.neetcode.begineers.algods.o4linkedlist.o1single;
+package com.neetcode.begineers.algods.o4linkedlist.o5single;
 
 // Implementation for Singly Linked List
 public class SinglyLinkedList {
