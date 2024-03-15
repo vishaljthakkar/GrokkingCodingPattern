@@ -23,7 +23,7 @@ public class O1_AverageOfSubarrayOfSizeK {
         }
         double[] result = new double[input.length - K + 1];
 
-        for(int i = 0; i <= input.length - K; i++) {
+        for(int i = 0; i < input.length - K + 1; i++) {
             double sum = 0;
             for(int j = i; j < i + K; j++) {
                 sum += input[j];
