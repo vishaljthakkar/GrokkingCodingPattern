@@ -1,6 +1,6 @@
 package com.neetcode.beginners.algods.o10binarysearch;
 
-import com.pattern.util.RandomArrayGenerator;
+import com.educative.io.pattern.util.RandomArrayGenerator;
 
 import java.util.Arrays;
 import java.util.Random;

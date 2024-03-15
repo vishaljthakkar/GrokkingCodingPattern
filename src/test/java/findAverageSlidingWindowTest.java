@@ -1,4 +1,4 @@
-import com.pattern.o1slidingwindow.easy.O1_AverageOfSubarrayOfSizeK;
+import com.educative.io.pattern.o1slidingwindow.easy.O1_AverageOfSubarrayOfSizeK;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

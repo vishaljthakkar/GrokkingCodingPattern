@@ -1,6 +1,6 @@
 package com.neetcode.beginners.algods.o9sorting;
 
-import com.pattern.util.RandomArrayGenerator;
+import com.educative.io.pattern.util.RandomArrayGenerator;
 
 import java.time.Duration;
 import java.time.Instant;
