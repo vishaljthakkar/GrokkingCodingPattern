@@ -5,7 +5,7 @@ package com.neetcode.beginners.algods.o16dynamicprogramming.leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class O1_ClimbingStairs_70 {
+public class O1_ClimbingStairs_70_1D {
     static Map<Integer, Integer> cache = new HashMap<>();
 
     public static int climbStairs(int n) {

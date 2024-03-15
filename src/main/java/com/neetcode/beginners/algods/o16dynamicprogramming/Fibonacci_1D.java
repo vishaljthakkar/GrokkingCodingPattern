@@ -1,6 +1,6 @@
 package com.neetcode.beginners.algods.o16dynamicprogramming;
 
-public class Fibonacci {
+public class Fibonacci_1D {
 
     //Brute Force
     public static int bruteForce(int n) {

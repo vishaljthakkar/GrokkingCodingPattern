@@ -1,6 +1,6 @@
 package com.neetcode.beginners.algods.o16dynamicprogramming.leetcode;
 
-public class O2_HouseRobber_198 {
+public class O2_HouseRobber_198_1D {
     /* Logic here is as follows:
      1. Lets say robber robbed 2nd house, then he/she cannot rob 3rd house.
      2. Robber now reaches 3rd house, the only way he can decide to rob this house is
