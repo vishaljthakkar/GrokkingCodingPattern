@@ -18,6 +18,8 @@ Input: String="adcad", Pattern="abc"
 Output: ""
 Explanation: No substring in the given string has all characters of the pattern.
  */
+
+// https://leetcode.com/problems/minimum-window-substring/submissions/1204792981/
 public class O3_MinimumWindowSubstring {
     public static String findSubstring(String str, String pattern) {
         int windowStart = 0, matched = 0, minLength = str.length() + 1, subStrStart = 0;

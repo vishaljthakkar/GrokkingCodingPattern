@@ -21,6 +21,7 @@ Input: String="abccde", k=1
 Output: 3
 Explanation: Replace the 'b' or 'd' with 'c' to have the longest repeating substring "ccc".
  */
+// https://leetcode.com/problems/longest-repeating-character-replacement/description/
 @Slf4j
 public class O7_CharacterReplacement {
 

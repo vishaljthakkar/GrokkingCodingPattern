@@ -35,7 +35,6 @@ having a sum greater than or equal to 'S'. We will remember the length of this w
  */
 @Slf4j
 public class O3_MinSizeSubArraySum {
-
     /*
     Time complexity: O(n). outer for loop runs for all elements and inner while loop processes each element only once.
     O(n + n) => O(n)

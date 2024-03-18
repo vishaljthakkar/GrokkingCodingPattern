@@ -21,6 +21,7 @@ The time complexity of the above algorithm will be O(N) where ‘N’ is the tot
 Space Complexity
 O(1)
  */
+// https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 public class O1_PairWithTargetSum {
 
     public static int[] search(int[] arr, int targetSum) {

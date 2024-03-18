@@ -19,6 +19,7 @@ Input: String="abccde"
 Output: 3
 Explanation: Longest substrings without any repeating characters are "abc" & "cde".
  */
+// https://leetcode.com/problems/longest-substring-without-repeating-characters/description/ (medium)
 @Slf4j
 public class O6_NoRepeatSubString {
 
@@ -42,7 +43,7 @@ public class O6_NoRepeatSubString {
             if (charIndexMap.containsKey(rightChar)) {
                 // this is tricky, in the current window, we will not have any 'rightChar' after its previous index
                 // and if 'windowStart' is already ahead of the lastIndex of 'rightChar', we will keep 'windowStart'
-                windowStart = Math.max(windowStart, charIndexMap.get(rightChar) + 1);
+                 windowStart = Math.max(windowStart, charIndexMap.get(rightChar) + 1);
             }
             charIndexMap.put(rightChar, windowEnd); // insert rightChar along with the index
             maxLength = Math.max(maxLength, windowEnd - windowStart + 1); // remember the maximum length
@@ -54,5 +55,8 @@ public class O6_NoRepeatSubString {
         log.info("length of the longest substring which has no repeating characters: "+ findLength("aabccbb"));
         log.info("length of the longest substring which has no repeating characters: "+ findLength("abbbb"));
         log.info("length of the longest substring which has no repeating characters: "+ findLength("abccde"));
+
+        // This is the reason why we need Math.max and not just "charIndexMap.get(rightChar) + 1;"
+        log.info("length of the longest substring which has no repeating characters: "+ findLength("abba"));
     }
 }
