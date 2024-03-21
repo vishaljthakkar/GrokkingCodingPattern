@@ -1,0 +1,13 @@
+When can we use Binary search - Few hints when to consider using it? A general structure:
+1. Sorted / Ordered
+2. Minimum / Maximum
+3. Maximum of minimums / Minimum of Maximums
+4. Monotonicity is evident
+5. Bound of the problem, expected complexity
+6. If someone gives me an answer, can I check whether it is right or wrong? Basically can I simulate it?
+7. If questions asks for some value up to certain accuracy (Say 6 point after decimal place), etc.
+
+
+https://www.youtube.com/watch?v=WVsezzbgXxc
+
+https://docs.google.com/document/d/1Xg1vz4mCFTHEuzijzMcRLtjz3IvpU0i6Q1weFGuIWmA/edit
