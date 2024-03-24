@@ -58,6 +58,6 @@ public class O5_RotateList_61 {
             result = result.next;
         }
         System.out.println();
-        // Nodes of the rotated LinkedList are: 3 4 5 1 2 
+        // Nodes of the rotated LinkedList are: 3 4 5 1 2
     }
 }
