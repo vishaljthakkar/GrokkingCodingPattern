@@ -1,11 +1,8 @@
-package com.neetcode.beginners.algods.o4linkedlist.o5single.leetcode;
+package com.educative.io.pattern.o8inplacereversallinkedlist.leetcode;
 
 import com.neetcode.beginners.algods.o4linkedlist.o5single.ListNode;
 
-// https://leetcode.com/problems/reverse-linked-list/
-
 public class O1_ReverseLinkedList_206 {
-
     public static ListNode reverseList(ListNode head) {
         if (head == null)
             return null;
